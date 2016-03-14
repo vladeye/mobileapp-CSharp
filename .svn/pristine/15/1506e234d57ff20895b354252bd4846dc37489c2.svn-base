@@ -1,0 +1,41 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="NMCAndroid\Screens\History\HistoryDetail.cs">
+    <Files>
+      <File FileName="NMCAndroid\Screens\Home\Splash.cs" Line="46" Column="41" />
+      <File FileName="DTO\History.cs" Line="18" Column="25" />
+      <File FileName="BRL\ListHistory.cs" Line="19" Column="49" />
+      <File FileName="DTO\HistoryDetail.cs" Line="22" Column="23" />
+      <File FileName="BRL\ListHistoryDetail.cs" Line="27" Column="17" />
+      <File FileName="NMCAndroid\Screens\History\HistoryDetail.cs" Line="57" Column="23" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="BRL" expanded="True" />
+          <Node name="DTO" expanded="True" />
+          <Node name="NMCAndroid" expanded="True">
+            <Node name="Screens" expanded="True">
+              <Node name="History" expanded="True">
+                <Node name="HistoryDetail.cs" selected="True" />
+              </Node>
+              <Node name="Home" expanded="True" />
+              <Node name="PushedCoupon" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.NMCAndroid AndroidDeviceId-Debug="emulator-5554" />
+</Properties>

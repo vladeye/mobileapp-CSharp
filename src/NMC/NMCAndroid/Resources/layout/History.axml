@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/lLContenedor"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:padding="5dp"
+    android:background="@drawable/bg_Aopen_00_Splashscreen">
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout1"
+        android:shrinkColumns="1">
+        <TableRow
+            android:id="@+id/tableRow1">
+            <ImageView
+                android:src="@drawable/search"
+                android:layout_column="0"
+                android:id="@+id/iVFiltro"
+                android:layout_height="fill_parent"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/gradientGray2" />
+            <EditText
+                android:layout_column="1"
+                android:id="@+id/eTFiltro"
+                android:background="@drawable/textfield_default"
+                android:paddingLeft="6dp"
+                android:layout_height="35dp" />
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout2"
+        android:shrinkColumns="1"
+        android:stretchColumns="1">
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:paddingTop="5dp">
+            <ImageView
+                android:src="@drawable/choose_account"
+                android:layout_column="0"
+                android:id="@+id/iVChooseAccount"
+                android:background="@drawable/gradient2"
+                android:layout_height="fill_parent"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp" />
+            <TextView
+                android:text="Choose Account"
+                android:layout_column="1"
+                android:id="@+id/tVChooseAccount"
+                android:layout_height="35dp"
+                android:background="@drawable/gradient"
+                android:paddingLeft="5dp"
+                android:gravity="center_vertical" />
+            <TextView
+                android:text="All"
+                android:layout_column="2"
+                android:id="@+id/tVChooseAcountAll"
+                android:background="@drawable/gradient"
+                android:layout_height="fill_parent"
+                android:paddingRight="5dp"
+                android:gravity="center_vertical" />
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout3"
+        android:shrinkColumns="1"
+        android:stretchColumns="1">
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:paddingTop="5dp">
+            <TextView
+                android:text="Date"
+                android:layout_column="0"
+                android:id="@+id/textView18"
+                android:background="@drawable/gradientMenu"
+                android:layout_height="35dp"
+                android:layout_width="70dp"
+                android:paddingLeft="5dp"
+                android:gravity="center_vertical" />
+            <TextView
+                android:text="Store"
+                android:layout_column="1"
+                android:id="@+id/textView19"
+                android:background="@drawable/gradient"
+                android:layout_height="fill_parent"
+                android:paddingLeft="5dp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="1dp" />
+            <TextView
+                android:text="Status"
+                android:layout_column="2"
+                android:id="@+id/textView20"
+                android:background="@drawable/gradient"
+                android:layout_height="fill_parent"
+                android:layout_width="50dp"
+                android:paddingLeft="5dp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="1dp" />
+            <TextView
+                android:text="Amount"
+                android:layout_column="3"
+                android:id="@+id/textView21"
+                android:background="@drawable/gradient"
+                android:layout_height="fill_parent"
+                android:layout_width="60dp"
+                android:paddingLeft="5dp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="1dp" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

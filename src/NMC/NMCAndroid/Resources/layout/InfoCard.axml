@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="@drawable/bg_Aopen_00_Splashscreen">
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:id="@+id/tableLayout1"
+        android:stretchColumns="0"
+        android:background="@drawable/bg_Aopen_00_Splashscreen">
+        <TableRow
+            android:id="@+id/tableRow1">
+            <TextView
+                android:text="Card Label"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="0"
+                android:textColor="#000000"
+                android:id="@+id/textView25" />
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="1"
+                android:textColor="#000000"
+                android:id="@+id/infoCardLabel" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2">
+            <TextView
+                android:text="Card Type"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="0"
+                android:id="@+id/textView27"
+                android:textColor="#000000"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="1"
+                android:id="@+id/infoCardType"
+                android:textColor="#000000"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Name on Card"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="0"
+                android:textColor="#000000"
+                android:id="@+id/textView29" />
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="1"
+                android:textColor="#000000"
+                android:id="@+id/infoNameOnCard" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow4">
+            <TextView
+                android:text="Card Number"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="0"
+                android:textColor="#000000"
+                android:id="@+id/textView31" />
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="1"
+                android:textColor="#000000"
+                android:id="@+id/infoCardNumber" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow5">
+            <TextView
+                android:text="Expiration Date"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="0"
+                android:textColor="#000000"
+                android:id="@+id/textView42" />
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="1"
+                android:textColor="#000000"
+                android:id="@+id/infoExpirationDate" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow6">
+            <TextView
+                android:text="CCV Code"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="0"
+                android:id="@+id/textView44"
+                android:textColor="#000000"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="1"
+                android:textColor="#000000"
+                android:id="@+id/infoCcvCode" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow7">
+            <TextView
+                android:text="Billing Address"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="0"
+                android:textColor="#000000"
+                android:id="@+id/textView46" />
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="1"
+                android:textColor="#000000"
+                android:id="@+id/infoBillingAddress" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow8">
+            <TextView
+                android:text="Billing Address Zip Code  "
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="0"
+                android:textColor="#000000"
+                android:id="@+id/textView48" />
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="1"
+                android:textColor="#000000"
+                android:id="@+id/infoBillingAddressZipCode" />
+        </TableRow>
+    </TableLayout>
+    <Button
+        android:text="Edit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bEdit"
+        android:background="@drawable/gradient" />
+</LinearLayout>

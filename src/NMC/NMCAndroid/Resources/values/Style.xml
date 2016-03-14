@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>        
+    <style name="EditTextGray">
+    	<item name="android:background">@drawable/gradient2</item>
+    	<item name="android:textSize">22sp</item>
+    	<item name="android:textStyle">bold</item>
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+	</style>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tUserInfo"
+        android:stretchColumns="1">
+        <TableRow
+            android:id="@+id/tableRow1">
+            <TextView
+                android:text="Address Label"
+                android:layout_column="0"
+                android:id="@+id/textView19" />
+            <EditText
+                android:layout_column="1"
+                android:id="@+id/eTAddNewAddressLabel"
+                android:layout_height="35dp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2">
+            <TextView
+                android:text="Address Type"
+                android:layout_column="0"
+                android:id="@+id/textView20" />
+            <EditText
+                android:layout_column="1"
+                android:id="@+id/eTAddNewAddressType"
+                android:layout_height="35dp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3">
+            <TextView
+                android:text="Street Address 1"
+                android:layout_column="0"
+                android:id="@+id/textView19" />
+            <EditText
+                android:layout_column="1"
+                android:id="@+id/eTAddNewAddressStreet1"
+                android:layout_height="35dp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow4">
+            <TextView
+                android:text="Street Address 2"
+                android:layout_column="0"
+                android:id="@+id/textView20" />
+            <EditText
+                android:layout_column="1"
+                android:id="@+id/eTAddNewAddressStreet2"
+                android:layout_height="35dp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow4">
+            <TextView
+                android:text="Zip Code"
+                android:layout_column="0"
+                android:id="@+id/textView20" />
+            <EditText
+                android:layout_column="1"
+                android:id="@+id/eTAddNewAddressZipCode"
+                android:layout_height="35dp"
+                android:inputType="number"
+                android:numeric="integer" />
+        </TableRow>
+    </TableLayout>
+    <Button
+        android:text="Confirmar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bAddNewAddressConfirmar" />
+</LinearLayout>

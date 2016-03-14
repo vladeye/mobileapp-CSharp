@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tUserInfo"
+        android:stretchColumns="1">
+        <TableRow
+            android:id="@+id/tableRow1">
+            <TextView
+                android:text="First Name"
+                android:layout_column="0"
+                android:id="@+id/textView19" />
+            <EditText
+                android:layout_column="1"
+                android:id="@+id/eTUserInfoFirstName"
+                android:layout_height="35dp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2">
+            <TextView
+                android:text="Last Name"
+                android:layout_column="0"
+                android:id="@+id/textView20" />
+            <EditText
+                android:layout_column="1"
+                android:id="@+id/eTUserInfoLastName"
+                android:layout_height="35dp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow4">
+            <TextView
+                android:text="Date Of Birth"
+                android:layout_column="0"
+                android:id="@+id/textView21" />
+            <EditText
+                android:layout_column="1"
+                android:inputType="date"
+                android:id="@+id/eTUserInfoDateOfBirth"
+                android:layout_height="35dp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow5">
+            <TextView
+                android:text="E-Mail Address"
+                android:layout_column="0"
+                android:id="@+id/textView22" />
+            <EditText
+                android:layout_column="1"
+                android:id="@+id/eTUserInfoEmailAddress"
+                android:inputType="textEmailAddress"
+                android:layout_height="35dp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow6">
+            <TextView
+                android:text="Mobile Number"
+                android:layout_column="0"
+                android:id="@+id/textView23" />
+            <EditText
+                android:layout_column="1"
+                android:id="@+id/eTUserInfoMobileNumber"
+                android:layout_height="35dp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow7">
+            <TextView
+                android:text="Password"
+                android:layout_column="0"
+                android:id="@+id/textView24" />
+            <EditText
+                android:layout_column="1"
+                android:inputType="textPassword"
+                android:id="@+id/eTUserInfoPassword"
+                android:layout_height="35dp"
+                android:numeric="integer" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow8">
+            <TextView
+                android:text="Mobile Pincode  "
+                android:layout_column="0"
+                android:id="@+id/textView25" />
+            <EditText
+                android:layout_column="1"
+                android:inputType="textPassword"
+                android:id="@+id/eTUserInfoMobilePinCode"
+                android:layout_height="35dp" />
+        </TableRow>
+    </TableLayout>
+    <Button
+        android:text="Confirmar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bUserInfoConfirmar" />
+</LinearLayout>

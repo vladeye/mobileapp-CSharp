@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1D92AB60-DF5C-4B75-B401-590CBC3F0ABC}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>NMCAndroid</RootNamespace>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <AssemblyName>NMCAndroid</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+    <AndroidLinkMode>None</AndroidLinkMode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
+    <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Screens\BaseActivity.cs" />
+    <Compile Include="Screens\Home\Splash.cs" />
+    <Compile Include="Screens\Home\Login.cs" />
+    <Compile Include="Screens\ShoppingAssistant\ShoppingAssistant.cs" />
+    <Compile Include="Screens\ShoppingAssistant\Bookmarks.cs" />
+    <Compile Include="Screens\GenericAdapters\ImageList_Adapter.cs" />
+    <Compile Include="Screens\BaseItemList.cs" />
+    <Compile Include="Screens\Settings\About.cs" />
+    <Compile Include="Screens\Settings\Addresses.cs" />
+    <Compile Include="Screens\Settings\Cards.cs" />
+    <Compile Include="Screens\Settings\ContactUs.cs" />
+    <Compile Include="Screens\Settings\EditCard.cs" />
+    <Compile Include="Screens\Settings\InfoCard.cs" />
+    <Compile Include="Screens\Settings\Language.cs" />
+    <Compile Include="Screens\Settings\PusNotification.cs" />
+    <Compile Include="Screens\Settings\ReportAbuse.cs" />
+    <Compile Include="Screens\Settings\ScannTimeout.cs" />
+    <Compile Include="Screens\Settings\Settings.cs" />
+    <Compile Include="Screens\Settings\StringList_Adapter.cs" />
+    <Compile Include="Screens\Settings\Terms.cs" />
+    <Compile Include="Screens\Settings\UserInfo.cs" />
+    <Compile Include="Screens\Settings\AddNewAddress.cs" />
+    <Compile Include="Screens\History\ChooseAccount.cs" />
+    <Compile Include="Screens\History\History.cs" />
+    <Compile Include="Screens\PushedCoupon\PushedCoupon.cs" />
+    <Compile Include="Screens\ToolKit\ToolGeo.cs" />
+    <Compile Include="Screens\Pruebas\Acordeon.cs" />
+    <Compile Include="Screens\History\HistoryDetail.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Main.axml" />
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\drawable\Icon.png" />
+    <AndroidResource Include="Resources\layout\Login.axml" />
+    <AndroidResource Include="Resources\layout\Splash.axml" />
+    <AndroidResource Include="Resources\drawable\Bookmark.png" />
+    <AndroidResource Include="Resources\drawable\Business.png" />
+    <AndroidResource Include="Resources\drawable\Catalogs.png" />
+    <AndroidResource Include="Resources\drawable\Coupons.png" />
+    <AndroidResource Include="Resources\drawable\Memberships.png" />
+    <AndroidResource Include="Resources\drawable\RemoteProducts.png" />
+    <AndroidResource Include="Resources\drawable\BkBusiness.png" />
+    <AndroidResource Include="Resources\drawable\BkCatalogs.png" />
+    <AndroidResource Include="Resources\drawable\BkCoupons.png" />
+    <AndroidResource Include="Resources\drawable\BkProducts.png" />
+    <AndroidResource Include="Resources\layout\InfoCard.axml" />
+    <AndroidResource Include="Resources\layout\SwitchSettingsText.axml" />
+    <AndroidResource Include="Resources\drawable\Cvacia.png" />
+    <AndroidResource Include="Resources\layout\UserInfo.axml" />
+    <AndroidResource Include="Resources\drawable\about.png" />
+    <AndroidResource Include="Resources\drawable\addresses.png" />
+    <AndroidResource Include="Resources\drawable\arrow_white_down.png" />
+    <AndroidResource Include="Resources\drawable\arrow_white_up.png" />
+    <AndroidResource Include="Resources\drawable\card_american_express.png" />
+    <AndroidResource Include="Resources\drawable\card_discover.png" />
+    <AndroidResource Include="Resources\drawable\card_master_card.png" />
+    <AndroidResource Include="Resources\drawable\card_visa.png" />
+    <AndroidResource Include="Resources\drawable\cards.png" />
+    <AndroidResource Include="Resources\drawable\contact_us.png" />
+    <AndroidResource Include="Resources\drawable\language.png" />
+    <AndroidResource Include="Resources\drawable\loyalty_settings.png" />
+    <AndroidResource Include="Resources\drawable\notification.png" />
+    <AndroidResource Include="Resources\drawable\report_abuse.png" />
+    <AndroidResource Include="Resources\drawable\scan_time_out.png" />
+    <AndroidResource Include="Resources\drawable\terms.png" />
+    <AndroidResource Include="Resources\drawable\user_info.png" />
+    <AndroidResource Include="Resources\drawable\work.png" />
+    <AndroidResource Include="Resources\layout\EditCard.axml" />
+    <AndroidResource Include="Resources\layout\AddNewAddress.axml" />
+    <AndroidResource Include="Resources\drawable\blue.png" />
+    <AndroidResource Include="Resources\drawable\choose_account.png" />
+    <AndroidResource Include="Resources\drawable\compose_new_message.png" />
+    <AndroidResource Include="Resources\drawable\green.png" />
+    <AndroidResource Include="Resources\drawable\red.png" />
+    <AndroidResource Include="Resources\drawable\search.png" />
+    <AndroidResource Include="Resources\drawable\shintaro_logo.png" />
+    <AndroidResource Include="Resources\drawable\gradient.xml" />
+    <AndroidResource Include="Resources\drawable\gradient2.xml" />
+    <AndroidResource Include="Resources\drawable\gradientGreenBars1.xml" />
+    <AndroidResource Include="Resources\drawable\gradientGreenBars2.xml" />
+    <AndroidResource Include="Resources\drawable\gradientMenu.xml" />
+    <AndroidResource Include="Resources\drawable\bg_Aopen_00_Splashscreen.png" />
+    <AndroidResource Include="Resources\drawable\gradientGray1.xml" />
+    <AndroidResource Include="Resources\drawable\gradientGray2.xml" />
+    <AndroidResource Include="Resources\values\Style.xml" />
+    <AndroidResource Include="Resources\drawable\textfield_default.png" />
+    <AndroidResource Include="Resources\drawable\n.png" />
+    <AndroidResource Include="Resources\drawable\n_e.png" />
+    <AndroidResource Include="Resources\drawable\e.png" />
+    <AndroidResource Include="Resources\drawable\n_o.png" />
+    <AndroidResource Include="Resources\drawable\o.png" />
+    <AndroidResource Include="Resources\drawable\s.png" />
+    <AndroidResource Include="Resources\drawable\s_e.png" />
+    <AndroidResource Include="Resources\drawable\s_o.png" />
+    <AndroidResource Include="Resources\layout\Acordeon.axml" />
+    <AndroidResource Include="Resources\layout\History.axml" />
+    <AndroidResource Include="Resources\drawable\history_blue.png" />
+    <AndroidResource Include="Resources\drawable\history_green.png" />
+    <AndroidResource Include="Resources\drawable\history_red.png" />
+    <AndroidResource Include="Resources\layout\HistoryDetail.axml" />
+    <AndroidResource Include="Resources\drawable\RoundShape.xml" />
+    <AndroidResource Include="Resources\drawable\RoundShapeFront.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Screens\" />
+    <Folder Include="Screens\Home\" />
+    <Folder Include="Screens\ShoppingAssistant\" />
+    <Folder Include="Screens\GenericAdapters\" />
+    <Folder Include="Screens\Settings\" />
+    <Folder Include="Screens\History\" />
+    <Folder Include="Screens\Pruebas\" />
+    <Folder Include="Screens\PushedCoupon\" />
+    <Folder Include="Screens\ToolKit\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{C4CC369C-F3CC-4036-89BB-6367B90695F3}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BRL\BRL.csproj">
+      <Project>{658620E9-B4C1-4CA2-ABBC-023710123798}</Project>
+      <Name>BRL</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

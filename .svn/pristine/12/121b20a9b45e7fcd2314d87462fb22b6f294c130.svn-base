@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="NMCAndroid.NMCAndroid">
+  <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="8" />
+  <application android:name="mono.android.app.Application" android:debuggable="true">
+    <activity android:label="BaseActivity" android:name="nmcandroid.BaseActivity" />
+    <activity android:label="Splash" android:noHistory="true" android:name="nmcandroid.Splash">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="Login" android:name="nmcandroid.Login" />
+    <activity android:label="ShoppingAssistant" android:name="nmcandroid.ShoppingAssistant" />
+    <activity android:label="Bookmarks" android:name="nmcandroid.Bookmarks" />
+    <activity android:label="About" android:name="nmcandroid.About" />
+    <activity android:label="Addresses" android:name="nmcandroid.Addresses" />
+    <activity android:label="Cards" android:name="nmcandroid.Cards" />
+    <activity android:label="ContactUs" android:name="nmcandroid.ContactUs" />
+    <activity android:label="EditCard" android:name="nmcandroid.EditCard" />
+    <activity android:label="InfoCard" android:name="nmcandroid.InfoCard" />
+    <activity android:label="Language" android:name="nmcandroid.Language" />
+    <activity android:label="PusNotification" android:name="nmcandroid.PusNotification" />
+    <activity android:label="ReportAbuse" android:name="nmcandroid.ReportAbuse" />
+    <activity android:label="ScannTimeout" android:name="nmcandroid.ScannTimeout" />
+    <activity android:label="Settings" android:name="nmcandroid.Settings" />
+    <activity android:label="Terms" android:name="nmcandroid.Terms" />
+    <activity android:label="UserInfo" android:name="nmcandroid.UserInfo" />
+    <activity android:label="AddNewAddress" android:name="nmcandroid.AddNewAddress" />
+    <activity android:label="ChooseAccount" android:name="nmcandroid.ChooseAccount" />
+    <activity android:label="History" android:name="nmcandroid.History" />
+    <activity android:label="Pushed Coupon" android:name="nmcandroid.PushedCoupon" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="NMCAndroid.NMCAndroid.mono.MonoRuntimeProvider.__mono_init__" />
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.NMCAndroid.NMCAndroid" />
+      </intent-filter>
+    </receiver>
+  </application>
+  <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

@@ -1,0 +1,15 @@
+C:\Users\knight\Documents\NMC\src\NMC\BRL\bin\Debug\BRL.dll
+C:\Users\knight\Documents\NMC\src\NMC\BRL\bin\Debug\BRL.pdb
+C:\Users\knight\Documents\NMC\src\NMC\BRL\bin\Debug\BRL.dll.mdb
+C:\Users\knight\Documents\NMC\src\NMC\BRL\bin\Debug\BRL.BRL.apk
+C:\Users\knight\Documents\NMC\src\NMC\BRL\bin\Debug\BRL.BRL-Signed.apk
+C:\Users\knight\Documents\NMC\src\NMC\BRL\bin\Debug\DTO.dll
+C:\Users\knight\Documents\NMC\src\NMC\BRL\bin\Debug\DTO.pdb
+C:\Users\knight\Documents\NMC\src\NMC\BRL\bin\Debug\DTO.dll.mdb
+C:\Users\knight\Documents\NMC\src\NMC\BRL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\knight\Documents\NMC\src\NMC\BRL\obj\Debug\BRL.dll
+C:\Users\knight\Documents\NMC\src\NMC\BRL\obj\Debug\BRL.pdb
+C:\Users\knight\Documents\NMC\src\NMC\BRL\obj\Debug\android\bin\BRL.BRL.apk
+C:\Users\knight\Documents\NMC\src\NMC\BRL\obj\Debug\res\values\strings.xml
+C:\Users\knight\Documents\NMC\src\NMC\BRL\obj\Debug\R.cs.flag
+C:\Users\knight\Documents\NMC\src\NMC\BRL\obj\Debug\uploadflags.txt

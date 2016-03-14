@@ -1,0 +1,3 @@
+C:\Users\knight\Documents\NMC\src\NMC\NMCAndroid\bin\Debug\NMCAndroid.dll
+C:\Users\knight\Documents\NMC\src\NMC\NMCAndroid\bin\Debug\DTO.dll
+C:\Users\knight\Documents\NMC\src\NMC\NMCAndroid\bin\Debug\BRL.dll
